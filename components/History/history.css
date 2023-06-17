@@ -42,17 +42,27 @@
 @media (max-width: 700px) {
   .history--container {
     padding: 1rem;
+    padding-top: 6rem;
   }
-  
+
  .history--heading {
   flex-direction: column;
  } 
+
+ .history--heading h1 {
+  padding-bottom: 1.25rem;
+ }
 
  .history--heading p {
   width: 100%;
  }
 
+ .history--sub_heading {
+  flex-direction: column-reverse;
+ }
+
  .history--sub_heading p {
     width: 100%;
+    padding-top: 1.25rem;
   }
 }
