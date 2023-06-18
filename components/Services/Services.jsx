@@ -15,25 +15,12 @@ const Services = () => {
 
 
         <div className="services--sub_container">
-          <div className="services--sub_head">
-            <Image 
-              src="/home-installation.svg"
-              width={24}
-              height={24}
-              alt="solar roof"
-            />
-
-            <div>
-              <h3>Solar roof installation</h3>
-              <p></p>
-            </div>
-          </div>
 
           <div className="services--sub_head">
             <Image 
               src="/energy-consultation.svg"
-              width={24}
-              height={24}
+              width={32}
+              height={32}
               alt="energy icon"
             />
 
@@ -46,8 +33,8 @@ const Services = () => {
           <div className="services--sub_head">
             <Image 
             src="/maintenance.svg"
-            width={24}
-            height={24}
+            width={32}
+            height={32}
             alt="gear icon"
             />
 
@@ -60,14 +47,14 @@ const Services = () => {
           <div className="services--sub_head">
             <Image 
               src="/cold.svg"
-              width={24}
-              height={24}
+              width={32}
+              height={32}
               alt="snow icon"
             />
 
             <div>
               <h3>Cold room solutions</h3>
-              <p>Konak offers innovative and sustainable cold room solutions powered by the sun. We understand the importance of reliable and eco-friendly cold storage, and our mission is to provide businesses with efficient and cost-effective options.</p>
+              <p>Konak offers sustainable cold room solutions powered by the sun. We understand the importance of reliable and eco-friendly cold storage and cost-effective options.</p>
             </div>
           </div>
       </div>

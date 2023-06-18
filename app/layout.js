@@ -1,8 +1,11 @@
 import './globals.css'
-import { Archivo } from 'next/font/google'
+import { DM_Sans } from 'next/font/google'
 
-const archivo = Archivo(
-  { subsets: ['latin'] }
+const dm_sans = DM_Sans(
+  { 
+    subsets: ['latin'],  
+    weight: [ '400', '500', '700' ],
+  }
 )
 
 export const metadata = {
@@ -13,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={archivo.className}>{children}</body>
+      <body className={dm_sans.className}>{children}</body>
     </html>
   )
 }

@@ -27,10 +27,6 @@
   border-radius: 12px;
 }
 
-.history--heading br {
-  display: none;
-}
-
 .history--sub_heading {
   padding-top: 3.5rem;
   display: flex;
@@ -62,10 +58,6 @@
  .history--heading p {
   width: 100%;
  }
-
- .history--heading br {
-  display: block;
-}
 
  .history--sub_heading {
   flex-direction: column-reverse;
