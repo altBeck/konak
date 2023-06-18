@@ -46,6 +46,10 @@
     flex-direction: column;
   }
 
+  .services--heading h1 {
+    text-transform: none;
+  }
+
   .services--heading p {
     padding-top: 1.25rem;
     width: 100%;
