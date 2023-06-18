@@ -1,5 +1,5 @@
 import styles from './page.module.css'
-import { Header, Navbar, History } from '@/components'
+import { Header, Navbar, History, Services } from '@/components'
 
 export default function Home() {
   return (
@@ -8,6 +8,7 @@ export default function Home() {
         <Navbar />
         <Header />
         <History />
+        <Services />
       </div>
     </main>
   )

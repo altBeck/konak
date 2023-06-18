@@ -16,7 +16,7 @@ const Header = () => {
           <div className="header--links">
             <button className="header--button">Contact us</button>
             <Link 
-              href="/"
+              href="#services"
               className="header--pseudolink"
               >
               Our Services

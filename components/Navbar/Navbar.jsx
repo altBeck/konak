@@ -14,8 +14,8 @@ const Menu = () => (
       <li className="nav--link"><a href="#home">Home</a></li>
       <li className="nav--link"><a href="#new">New</a></li>
       <li className="nav--link"><a href="popular">Popular</a></li>
-      <li className="nav--link"><a href="#trending">Trending</a></li>
-      <li className="nav--link"><a href="#categories">Categories</a></li>
+      <li className="nav--link"><a href="#services">Our Services</a></li>
+      <li className="nav--link"><a href="#contact">Contact us</a></li>
     </ul>
   </>
 )

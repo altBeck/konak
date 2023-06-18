@@ -72,6 +72,7 @@
     line-height: 43.52px;
     width: 100%;
     text-transform: none;
+    padding-bottom: 1rem;
   }
 
   .header--heading br {
@@ -87,6 +88,7 @@
   }
 
   .panel {
+    display: flex;
     margin: 0 auto;
     width: 75%;
     border-radius: 1.25rem;

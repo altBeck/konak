@@ -2,6 +2,13 @@
   width: 100%;
 }
 
+.max {
+  padding: 1rem;
+  color: white;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
 .description {
   display: flex;
   justify-content: inherit;
