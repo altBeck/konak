@@ -49,6 +49,7 @@
 
  .history--heading {
   flex-direction: column;
+  text-transform: none;
  } 
 
  .history--heading h1 {

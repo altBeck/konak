@@ -5,6 +5,7 @@
 .services--heading {
   display: flex;
   justify-content: space-between;
+  text-transform: none;
 }
 
 .services--heading h1 {
