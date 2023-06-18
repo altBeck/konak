@@ -27,7 +27,9 @@
   border-radius: 12px;
 }
 
-
+.history--heading br {
+  display: none;
+}
 
 .history--sub_heading {
   padding-top: 3.5rem;
@@ -45,6 +47,7 @@
   .history--container {
     padding: 1rem;
     padding-top: 6rem;
+    padding-bottom: 3rem;
   }
 
  .history--heading {
@@ -59,6 +62,10 @@
  .history--heading p {
   width: 100%;
  }
+
+ .history--heading br {
+  display: block;
+}
 
  .history--sub_heading {
   flex-direction: column-reverse;
