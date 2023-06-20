@@ -21,9 +21,9 @@
 }
 
 .header--paragraph {
-  font-size: 1.2;
+  font-size: 1.25rem;
   font-weight: 300;
-  width: 45%;
+  width: 50%;
   padding-bottom: 1rem;
 }
 
@@ -54,7 +54,7 @@
 
 .panel {
   border-radius: 2rem;
-  margin-left: -23.75rem;
+  margin-left: -32.75rem;
   margin-top: 8rem;
 }
 
