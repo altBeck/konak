@@ -29,14 +29,14 @@ const Projects = () => {
           <div className="panel-gallery">
             <div className="panel-image">
               <Image
-                src="/image1.jpg" 
+                src="/image1.JPG" 
                 width={333}
                 height={249}
                 alt="image1"
                 className={`imageClassName`}
               />
               <Image
-                src="/img2.jpg" 
+                src="/img2.JPG" 
                 width={333}
                 height={249}
                 alt="solar installation"
@@ -44,7 +44,7 @@ const Projects = () => {
               />
 
               <Image
-                src="/img1.jpg" 
+                src="/img1.JPG" 
                 width={333}
                 height={249}
                 alt="solar installation"

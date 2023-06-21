@@ -3,6 +3,8 @@ import Header from './Header/Header';
 import History from './History/History';
 import Services from './Services/Services';
 import Projects from './Projects/Projects';
+import Contact from './Contact/Contact';
+import Footer from './Footer/Footer';
 
 export {
   Navbar,
@@ -10,4 +12,6 @@ export {
   History,
   Services,
   Projects,
+  Contact,
+  Footer,
 }

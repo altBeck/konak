@@ -25,7 +25,7 @@ const Header = () => {
         </div>
 
         <Image 
-          src="/hero.jpg"
+          src="/hero.JPG"
           width={520}
           height={352}
           alt="workers installing a solar panel on a rooftop"
