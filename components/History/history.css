@@ -25,6 +25,7 @@
 
 .history--hero--img {
   border-radius: 12px;
+  height: auto;
 }
 
 .history--sub_heading {

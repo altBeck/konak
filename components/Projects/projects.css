@@ -5,6 +5,7 @@
 .projects--main {
   color: black;
   padding-bottom: 6rem;
+  padding-top: 3rem;
 }
 
 .panel-gallery {
@@ -31,6 +32,7 @@
 @media (max-width: 700px) {
   .projects--main {
     padding-bottom: 1rem;
+    padding-top: 2rem;
   }
 
   video {

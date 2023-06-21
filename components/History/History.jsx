@@ -13,10 +13,11 @@ const History = () => {
       <div className="history--sub_heading">
         <p>At Konak Solar, We believe that every project is unique, and that&apos;s why we take a collaborative approach, working closely with our clients to develop customized solar solutions that optimize energy production and maximize cost savings. Our team of experts utilizes advanced technology, industry best practices, and the highest quality components to ensure the performance, reliability, and longevity of every solar system we install.</p>
         <Image 
-          src="/IMG_20201211_132315570_HDR.jpg"
+          src="/history.jpg"
           width={540}
           height={302.5}
           alt="worker welding stands for solar panel"
+          priority
           className="history--hero--img"
         />
       </div>
