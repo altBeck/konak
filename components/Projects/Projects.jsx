@@ -17,8 +17,8 @@ const Projects = () => {
 
         <div>
           <video
-            width="1100"
-            height="620"
+            width="1068"
+            height="600"
             controls
           >
             <source src="/temp_video_for_share.mp4"
