@@ -1,5 +1,5 @@
 import styles from './page.module.css'
-import { Header, Navbar, History, Services } from '@/components'
+import { Header, Navbar, History, Services, Projects } from '@/components'
 
 export default function Home() {
   return (
@@ -9,6 +9,7 @@ export default function Home() {
         <Header />
         <History />
         <Services />
+        <Projects />
       </div>
     </main>
   )
