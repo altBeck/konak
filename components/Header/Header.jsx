@@ -1,6 +1,8 @@
 import './header.css';
 import styles from '../../app/page.module.css';
 
+import hero from '../../public/hero.JPG';
+
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -25,7 +27,7 @@ const Header = () => {
         </div>
 
         <Image 
-          src="/hero.JPG"
+          src={hero}
           width={520}
           height={352}
           alt="workers installing a solar panel on a rooftop"
