@@ -11,7 +11,7 @@ import open from '../../public/icon-menu.svg';
 const Menu = () => (
   <>
     <ul>
-
+      <li className="nav--link"><a href="#about">About us</a></li> 
       <li className="nav--link"><a href="#services">Our Services</a></li>
       <li className="nav--link"><a href="#projects">Projects</a></li>
       <li className="nav--link"><a href="#contact">Contact us</a></li>

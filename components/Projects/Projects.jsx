@@ -29,7 +29,7 @@ const Projects = () => {
           <div className="panel-gallery">
             <div className="panel-image">
               <Image
-                src="/image1.JPG" 
+                src="/image1.JPG"
                 width={333}
                 height={249}
                 alt="image1"

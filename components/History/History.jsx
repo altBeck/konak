@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const History = () => {
   return (
-    <div className="history--container">
+    <div id='about' className="history--container">
       <div className="history--heading">
         <h1>About Konak</h1>
         <p>Konak Solar is a leading provider of renewable energy solutions, specializing in the design, installation, and maintenance of solar power systems. With a commitment to sustainability and a focus on innovation, we aim to revolutionize the energy landscape by harnessing the power of the sun to create a cleaner and more sustainable future.</p>

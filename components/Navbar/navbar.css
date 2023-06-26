@@ -1,3 +1,8 @@
+nav {
+  position: relative;
+  z-index: 999;
+}
+
 .navbar {
   max-width: 1100px;
   margin: 0 auto;
@@ -57,6 +62,10 @@ li {
 }
 
 @media (max-width: 768px) {
+  nav {
+    z-index: initial;
+  }
+  
   ul {
     display: block;
     padding: 0;

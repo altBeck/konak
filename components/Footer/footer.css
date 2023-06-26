@@ -1,0 +1,99 @@
+.footer--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4rem;
+}
+
+.footer--container h3 {
+  font-size: 1.75rem;
+  padding-bottom: .25rem;
+}
+
+.footer--container p {
+  font-size: 1rem;
+  padding-bottom: 4rem;
+}
+
+.group__button {
+  display: flex;
+}
+
+.contact__button {
+  background-color: #377666;
+  color: white;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 1.25rem;
+}
+
+.button__contact {
+  background-color: transparent;
+  color: white;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.5rem;
+  border: solid 1px #fff;
+  font-weight: 500;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.footer--main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1ch;
+}
+
+.footer--desc {
+  display: flex;
+  color: black;
+}
+
+.footer--desc li {
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .footer--container h3 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .contact__button {
+    padding: 1rem .75rem;
+  }
+  
+  .button__contact {
+    padding: 1rem .75rem;
+  }
+
+  .footer--main {
+    flex-direction: column;
+  }
+
+  .footer--main img {
+    margin-bottom: 2rem;
+  }
+
+  .footer--desc {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer--desc li {
+    padding-bottom: .5rem;
+  }
+
+}

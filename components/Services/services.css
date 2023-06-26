@@ -6,6 +6,7 @@
   display: flex;
   justify-content: space-between;
   text-transform: none;
+  padding-top: 4rem;
 }
 
 .services--heading h1 {
@@ -44,6 +45,11 @@
 @media (max-width: 700px) {
   .services--heading {
     flex-direction: column;
+    padding-top: 0;
+  }
+
+  .services--heading br {
+    display: none;
   }
 
   .services--heading h1 {
