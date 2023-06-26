@@ -10,7 +10,7 @@ const dm_sans = DM_Sans(
 
 export const metadata = {
   title: 'Konak | Offering Families Home Power Solutions',
-  description: 'A ',
+  description: 'A family-friendly power solution option.',
 }
 
 export default function RootLayout({ children }) {
